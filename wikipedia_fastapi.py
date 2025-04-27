@@ -45,7 +45,7 @@ class WikipediaService:
             "\nTarafsız, anlaşılır ve doğrudan bilgi veren bir dil kullan."
         )
         try:
-            genai.configure(api_key="AIzaSyC8kKgJdV0d-Jn3RmsIYHF5Ksb9quxJRGM")  
+            genai.configure(api_key="") #YOUR API KEY  
             try:
                 model = genai.GenerativeModel("models/gemini-pro")
                 response = model.generate_content(prompt)
