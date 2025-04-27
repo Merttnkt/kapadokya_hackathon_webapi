@@ -1,1 +1,1 @@
-# wapi.py is a basic web API that retrieves topic-related information from Wikipedia using Python. wikipedia_fastapi.py is the FastAPI version of wapi.py, and it also converts the retrieved Wikipedia #information into text using a Gemini API key.
+# wapi.py is a basic web API that retrieves topic-related information from Wikipedia using Python. wikipedia_fastapi.py is the FastAPI version of wapi.py, and it also converts the retrieved Wikipedia information into text using a Gemini API key.
